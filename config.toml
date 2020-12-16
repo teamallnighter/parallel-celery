@@ -1,0 +1,101 @@
+theme = "edidor"
+title = "Edidor Demo"
+baseurl = "https://your site url"
+AuthorName = "Jon Doe"
+languageCode = "en"
+defaultContentLanguage = "en"
+hasCJKLanguage = true
+paginate = 5
+enableEmoji = true
+buildDrafts = "true"
+disableFastRender = true
+disqusShortname = "your disqus short name"
+googleAnalytics = "your ga id"
+themesDir = "themes"
+baseURL = ""
+publishDir = "public"
+
+[social]
+github = " "
+facebook = " "
+twitter = " "
+behance = " "
+email = " "
+
+[params]
+author = "Ziox"
+title = "ZIOX DEMO"
+description = "A hugo site using Edidor. <br/><br/> Ctrl+B toggle sidebar. "
+isHighlightCode = true
+useCustomSyntaxHighlight = false
+customJs = [ ]
+customCss = [ ]
+mode = "light"
+
+[[menu.main]]
+name = "Article"
+url = "#"
+weight = 1
+
+[[menu.main]]
+name = "View"
+url = "#"
+weight = 10
+
+[[menu.main]]
+parent = "View"
+identifier = "toggle-sidebar"
+name = "Toggle Sidebar"
+url = "#"
+weight = 10
+
+[[menu.main]]
+parent = "Article"
+name = "Posts"
+url = "/posts"
+weight = 1
+
+[[menu.main]]
+parent = "Article"
+name = "Tags"
+url = "/tags"
+weight = 20
+
+[[menu.main]]
+parent = "Article"
+name = "Categories"
+url = "/categories"
+weight = 30
+
+[[menu.main]]
+name = "Theme"
+url = "#"
+weight = 25
+
+[[menu.main]]
+parent = "Theme"
+identifier = "light"
+name = "Light"
+url = "#"
+weight = 1
+
+[[menu.main]]
+parent = "Theme"
+identifier = "dark"
+name = "Dark"
+url = "#"
+weight = 10
+
+[[menu.main]]
+parent = "Theme"
+identifier = "wild"
+name = "Wild"
+url = "#"
+weight = 20
+
+[[menu.main]]
+parent = "Theme"
+identifier = "export-wild"
+name = "Export Wild Style"
+url = "#"
+weight = 25
